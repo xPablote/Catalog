@@ -21,7 +21,7 @@ spring:
          username: root
          password: s3cr3t
 server:
-  port: 8080
+  port: 8081
 logging:
    level:
       org:
