@@ -6,7 +6,11 @@ spring:
       url: jdbc:oracle:thin:@localhost:1521:xe
       username: CATALOG
       password: CATALOG
-      driver-class-name: oracle.jdbc.driver.OracleDriver
+      driver-class-name: oracle.jdbc.OracleDriver
+   security:
+      user:
+         name: root
+         password: s3cr3t
    application:
       name: smartphone-catalog
    profiles:
@@ -14,6 +18,8 @@ spring:
    cloud:
       config:
          uri: http://localhost:8888
+         username: root
+         password: s3cr3t
 server:
   port: 8080
 logging:
