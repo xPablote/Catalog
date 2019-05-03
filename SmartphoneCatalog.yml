@@ -3,9 +3,9 @@ spring:
     hibernate:
       ddl-auto: update
    datasource:
-      url: jdbc:oracle:thin:@localhost:1521:system
-      username: catalogo
-      password: catalogo
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: CATALOG
+      password: CATALOG
       driver-class-name: oracle.jdbc.OracleDriver
    security:
       user:
