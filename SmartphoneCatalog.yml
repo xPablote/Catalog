@@ -6,7 +6,7 @@ spring:
       url: jdbc:oracle:thin:@localhost:1521:system
       username: catalogo
       password: catalogo
-      driver-class-name: oracle.jdbc.driver.OracleDriver
+      driver-class-name: oracle.jdbc.OracleDriver
    security:
       user:
          name: root
